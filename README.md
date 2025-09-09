@@ -87,14 +87,6 @@ struct SearchResultsWithPagination {
     let hasMorePages: Bool
 }
 ```
-
-**Features**:
-- **Load More Button**: Appears at the bottom of both grid and list views
-- **Results Counter**: Shows "X of Y movies" to indicate progress
-- **Loading States**: Separate loading indicators for initial load vs. load more
-- **Error Handling**: Graceful handling of pagination errors
-- **State Management**: Tracks current page, total results, and more pages availability
-
 **User Experience**:
 - Grid view: Load More button spans both columns with visual indicator
 - List view: Load More button as a styled row with progress indicator
@@ -204,7 +196,7 @@ If given unlimited time, potential improvements would include:
 
 ## How to Run
 
-1. Open `MoviewDemo.xcodeproj` in Xcode
+1. Open `MovieFinder.xcodeproj` in Xcode
 2. Select a target device or simulator (iOS 17.0+)
 3. Build and run the project
 4. Search for movies using the search field
