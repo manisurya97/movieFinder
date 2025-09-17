@@ -54,9 +54,9 @@ The app converts IMDB's 10-point rating system to a 5-star system:
 ### Third-Party Libraries & Tools
 
 This project uses only native iOS frameworks and libraries:
-- **SwiftUI**: Modern declarative UI framework
-- **Foundation**: Core networking and data handling
-- **Swift Testing**: Modern testing framework (iOS 18+)
+- **SwiftUI**: Declarative UI
+- **Foundation**: Networking and data handling
+- **Swift Testing**: Testing framework
 
 **Why minimal dependencies?**
 - Reduces complexity and potential version conflicts
